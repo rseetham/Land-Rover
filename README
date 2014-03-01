@@ -23,3 +23,6 @@ s- Shoulder Up
 x- Shoulder Down
 g- Jaw Open
 b- Jaw Close
+
+For simple GPIO commands like export and set value code by Derek Molly has been used.
+https://github.com/derekmolloy/boneDeviceTree/tree/master/gpio
