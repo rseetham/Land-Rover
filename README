@@ -30,9 +30,11 @@ https://github.com/derekmolloy/boneDeviceTree/tree/master/gpio
 The youtube link to a video of the project in action:
 http://youtu.be/KJff1PAOem0
 
-About the socket_server_with_camera
+About the socket_server_with_camera:
 UDP was used to stream video to the VLC Player on the client PC through ethernet.
 For the camera capture v4l2 library was used to talk to the uvc video driver.
-We used Derek Molly's BoneCV to do the above.
+Derek Molly's BoneCV has to used for the above.
 https://github.com/derekmolloy/boneCV
+
+Video link for the camera stream : http://youtu.be/CWlIOM2NPCU
 
