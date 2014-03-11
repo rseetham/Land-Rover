@@ -227,10 +227,6 @@ int main (){
    pthread_t threads1,threads2;
    int rc1,rc2;
    int i,k;
-   int pe=20000000;
-   int dui=18000000;
-   int ku=33,pt=21,pn=14;
-   char str3[64];
    
    rc1 = pthread_create(&threads1, NULL, PrintHello, (void *)i);
 	if (rc1){
