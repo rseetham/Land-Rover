@@ -26,6 +26,8 @@ x- Shoulder Down
 g- Jaw Open
 b- Jaw Close
 
+The IP address of the connection to the BBB should be changed in socet_client.cpp.
+
 For simple GPIO commands like export and set value code by Derek Molly has been used.
 https://github.com/derekmolloy/boneDeviceTree/tree/master/gpio
 
