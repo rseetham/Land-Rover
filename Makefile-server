@@ -1,0 +1,2 @@
+server: 
+	${CC} socket_server.cpp SimpleGPIO.cpp -pthread -o server;
