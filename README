@@ -4,8 +4,10 @@ The main aim of this project is to control a bot run by the Beagle Bone Black ov
 
 The bot consists of 2 dc motors for movement and a robotic arm with 4 degrees of freedom that can pick up small objects (upto 1” cube) carry it. The BBB drives the bot. A socket connection is established via a wi-fi dongle connected to the usb port of the BBB.
 
-The socket server code runs on the BBB and the client code runs on the computer. The client code needs nurses.h to compile and work.
+The socket server code runs on the BBB. 
+The client code runs on the computer(x86). 
 
+The client code needs ncurses.h to compile and work.
 ncurses.h can be obtained by using the following command:
 
 sudo apt-get install ncurses-dev
@@ -29,12 +31,3 @@ https://github.com/derekmolloy/boneDeviceTree/tree/master/gpio
 
 The youtube link to a video of the project in action:
 http://youtu.be/KJff1PAOem0
-
-About the socket_server_with_camera:
-UDP was used to stream video to the VLC Player on the client PC through ethernet.
-For the camera capture v4l2 library was used to talk to the uvc video driver.
-Derek Molly's BoneCV has to used for the above.
-https://github.com/derekmolloy/boneCV
-
-Video link for the camera stream : http://youtu.be/CWlIOM2NPCU
-
